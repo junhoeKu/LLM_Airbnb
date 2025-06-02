@@ -40,9 +40,16 @@
 
 ---
 
-## 💻 3. 모델 설계 및 파이프라인
+## 💻 3. 모델 및 파이프라인 설계
 
-### 3-1. 모델 구조
+### 3-1. 모델
+- **오픈소스 한국어 LLM vs GPT API**
+  - 성능 및 토큰 수, Inference Time을 고려하여 GPT API 활용
+  - 찾아본 한국어 LLM
+  - [rtzr/ko-gemma-2-9b-it](https://huggingface.co/rtzr/ko-gemma-2-9b-it)
+  - [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
+
+
 - **LLM 기반 자연어 조건 분석 + 필터링 + 자연어 응답 생성 구조**
 - 주요 모듈 구성:
   - **Query Analyzer**: 사용자 질의에서 조건 추출
