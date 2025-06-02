@@ -85,7 +85,7 @@
 
 ### 4-2. **인터페이스**
 
-<img src="https://github.com/user-attachments/assets/4156ed8d-b1ba-410e-9881-5f43ba3dc814" alt="Interface" width="700"/>
+<img src="https://github.com/user-attachments/assets/2820bb11-6558-49fa-99bc-59da24870303" alt="Interface" width="700"/>
 
 ---
 
