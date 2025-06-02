@@ -42,10 +42,13 @@
 ---
 
 ## 💻 3. 모델 및 파이프라인 
+
 ### 3-1. 전체 파이프라인 구성 
+
 <img src="https://github.com/user-attachments/assets/a4efed9e-e44d-4d57-9192-340fc7f2230c" alt="Pipeline" width="700"/>
 
 ### 3-2. 모델
+
 - **오픈소스 한국어 LLM vs GPT API**
   - 성능 및 토큰 수, Inference Time을 고려하여 GPT API 활용
   - 찾아본 한국어 LLM
@@ -58,13 +61,16 @@
   - **Response Generator**: 추천 이유와 함께 자연스럽고 친절한 문장 생성
 
 ### 3-3. 조건 강화 프롬프트 설계
+
 - **사용자 조건 미충족 숙소는 절대 추천하지 않도록 유도**
 - 숙소 목록 중에서만 선택하도록 **ID 기반 제한 조건** 명시
 - **조건 충족 여부, 추천 사유, 리뷰 요약** 등 핵심 정보 포함
 ---
 
 ## 📈 4. 결과 
+
 ### 4-1. 성과 및 예시
+
 - **다양한 조건을 조합한 테스트에서 실제 Airbnb 숙소를 정확하게 필터링**
 - **진정성 있는 응답 생성 품질 향상**
 - 예시
@@ -80,6 +86,7 @@
 
 
 ### 4-2. **인터페이스**
+
 <img src="https://github.com/user-attachments/assets/4156ed8d-b1ba-410e-9881-5f43ba3dc814" alt="Interface" width="700"/>
 
 ---
