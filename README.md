@@ -27,7 +27,6 @@
 ### 📷 **인터페이스**
 <img src="image/interface1.png" alt="Interface" width="700"/>
 
-
 ---
 
 ## 📊 2. 데이터 수집 및 DB 구성
@@ -92,17 +91,18 @@
 
 - 다국어 입력에 대한 조건 분석 지원 (예: 영어 사용자)
 - 세밀한 조건 우선순위 설정 기능 (예: "수영장이 가장 중요")
-- **지도 기반 인터페이스 + 응답 연동**
-- Streamlit을 활용한 **대화형 UI 개발**
+- Java Script를 활용한 **역동적 대화형 UI 개발**
+- DB 추가 구축
 
 ---
 
 ## 📚 6. 참고 자료
 
-- **Airbnb 공개 리뷰 데이터셋**
+- **Airbnb 데이터셋**
 - **LLM 기반 조건 추론 연구 논문들**
 - Hugging Face 기반 LLM:
-  - [maywell/Synatra-42dot-1.3B](https://huggingface.co/maywell/Synatra-42dot-1.3B)
+  - [rtzr/ko-gemma-2-9b-it](https://huggingface.co/rtzr/ko-gemma-2-9b-it)
+  - [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 - **프로젝트 진행용 협업 툴**
   - Notion, GitHub, Slack
 
