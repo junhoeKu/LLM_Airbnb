@@ -43,7 +43,7 @@
 
 ## 💻 3. 모델 및 파이프라인 
 ### 3-1. 전체 파이프라인 구성 
-<img src="https://github.com/user-attachments/assets/7a4e683b-612d-4882-9810-6d77c27ad0d1" alt="Pipeline" width="700"/>
+<img src="https://github.com/user-attachments/assets/a4efed9e-e44d-4d57-9192-340fc7f2230c" alt="Pipeline" width="700"/>
 
 ### 3-2. 모델
 - **오픈소스 한국어 LLM vs GPT API**
@@ -52,8 +52,6 @@
   - [rtzr/ko-gemma-2-9b-it](https://huggingface.co/rtzr/ko-gemma-2-9b-it)
   - [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 
-
-- **LLM 기반 자연어 조건 분석 + 필터링 + 자연어 응답 생성 구조**
 - 주요 모듈 구성:
   - **Query Analyzer**: 사용자 질의에서 조건 추출
   - **Structured Filter**: 조건 충족하는 숙소만 필터링
